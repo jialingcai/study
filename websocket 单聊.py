@@ -3,7 +3,7 @@ from geventwebsocket.handler import WebSocketHandler  # 遇到WSGI协议的时�
 from geventwebsocket.websocket import WebSocket  #语法提示
 
 
-# 基于Flask +gevenywebsocket
+# 基于Flask +geventwebsocket
 
 from flask import Flask,request,render_template
 import json
@@ -31,6 +31,7 @@ def my_ws_func(nickname):
 @app.route('/one_p')
 def one_p():
     return render_template('one_p.html')
+
 
 if __name__ == '__main__':
     http_serv = WSGIServer(("0.0.0.0",9527),application=app,handler_class=WebSocketHandler)
