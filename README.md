@@ -9,3 +9,8 @@
 4.启动的时候 使用的是WSGIWebsocket服务了,不在是flask的启动方式了
     http_serv = WSGIServer(("0.0.0.0",9527),application=app,handler_class=WebSocketHandler)
     http_serv.serve_forever()
+
+是的范德萨
+
+
+
