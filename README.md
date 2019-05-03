@@ -10,7 +10,11 @@
     http_serv = WSGIServer(("0.0.0.0",9527),application=app,handler_class=WebSocketHandler)
     http_serv.serve_forever()
 
+<<<<<<< HEAD
 更改次5
+=======
+更改6次
+>>>>>>> bb832e3d6314f0ee225d82c0e2d58facbaa4045f
 
 
 
