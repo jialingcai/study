@@ -10,7 +10,7 @@
     http_serv = WSGIServer(("0.0.0.0",9527),application=app,handler_class=WebSocketHandler)
     http_serv.serve_forever()
 
-是的范德萨
+更改二次
 
 
 
